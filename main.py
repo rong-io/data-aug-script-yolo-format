@@ -1,9 +1,7 @@
-from bs4 import BeautifulSoup
 import imgaug as ia
 import imageio
 from imgaug.augmentables.bbs import BoundingBox, BoundingBoxesOnImage
 from imgaug import augmenters as iaa
-from tqdm import trange
 from lxml import etree
 import glob
 from pathlib import Path
